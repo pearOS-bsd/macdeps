@@ -1,0 +1,28 @@
+/usr/lib/libLaunchServicesSupport.dylib
+/System/Library/CoreServices/launchservicesd
+/System/Library/PrivateFrameworks/SkyLight.framework/Versions/A/Resources/WindowServer
+/usr/libexec/hidd
+/System/Library/Frameworks/ApplicationServices.framework/Frameworks/ATS.framework/Support/fontd
+/System/Library/Frameworks/ApplicationServices.framework/Versions/A/Frameworks/ATS.framework/Versions/A/Resources/com.apple.fontd.sb
+/System/Library/CoreServices/ControlCenter.app/Contents/MacOS/ControlCenter
+AppKit.framework Resources (Assets.car, ...)
+CoreServices/SystemAppearance.bundle
+CoreServices/SystemAppearance.bundle
+CoreServices/Dock.app (bundle)
+Finder.app    32M, from the Mac VM (VM only)
+iconservicesd, iconservicesagent, IconsetResources.bundle (Mac VM, VM only)
+/System/Library/PrivateFrameworks/TimelineUI.framework/Versions/A/TimelineUI
+/System/Library/CoreServices/coreservicesd
+/System/Library/CoreServices/sharedfilelistd
+/System/Library/PrivateFrameworks/DesktopServicesPriv.framework
+/usr/lib/libobjc-trampolines.dylib
+/System/Library/CoreServices/appleeventsd
+/usr/share/icu/icudt78l.dat
+/usr/share/icu/icutzformat.txt
+/System/Applications/TextEdit.app
+/System/Library/PrivateFrameworks/ViewBridge.framework
+/System/Library/Frameworks/Quartz.framework
+/System/Library/CoreServices/CoreGlyphs.bundle
+/System/Library/CoreServices/CoreGlyphsPrivate.bundle
+/System/Library/PrivateFrameworks/SFSymbols.framework/Versions/A/Resources/CoreGlyphs.bundle
+/System/Library/PrivateFrameworks/SFSymbols.framework/Versions/A/Resources/CoreGlyphsPrivate.bundle
