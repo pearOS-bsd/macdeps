@@ -6,6 +6,8 @@
 /System/Library/Frameworks/ApplicationServices.framework/Versions/A/Frameworks/ATS.framework/Versions/A/Resources/com.apple.fontd.sb
 /System/Library/CoreServices/ControlCenter.app/Contents/MacOS/ControlCenter
 AppKit.framework Resources (Assets.car, ...)
+CoreUI.framework Resources: DesignLibrary-macOS.bundle (SwiftUI system colours: without it Color.red, .primary, ... resolve to clear), default.metallib, DuplicateImageNames.plist
+SwiftUI.framework Resources: Assets.car, mac-materials.json, *.loctable, *.materialrecipe
 CoreServices/SystemAppearance.bundle
 CoreServices/SystemAppearance.bundle
 CoreServices/Dock.app (bundle)
