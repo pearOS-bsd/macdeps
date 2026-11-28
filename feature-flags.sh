@@ -10,4 +10,4 @@ MAC="ssh -i $HOME/fbsd-vm/id_ed25519 -p 2229 -o IdentitiesOnly=yes -o BatchMode=
 mkdir -p "$DEST/System/Library"
 $MAC 'cd /System/Library && tar cf - FeatureFlags' | tar xf - -C "$DEST/System/Library"
 echo "$(find "$DEST/System/Library/FeatureFlags" -type f | wc -l | tr -d ' ') files"
-[ -n "$IMAGE" ] && mcopy -s -o -i "$IMAGE" "$DEST/System" ::/ && echo "copied into $IMAGE"
+if [ -n "$IMAGE" ]; then mcopy -s -o -i "$IMAGE" "$DEST/System" ::/ && echo "copied into $IMAGE"; fi
